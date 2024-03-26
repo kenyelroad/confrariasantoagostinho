@@ -1,0 +1,44 @@
+*{
+  align-items: center;
+  margin: 0 auto;
+}
+body{
+  align-items: center;
+  font-family: 'PMNCaeciliaSans Text', sans-serif;
+  font-style: normal;
+  text-justify: distribute-all-lines;
+  text-align: center;
+  width: 90%;
+}
+h1{
+font-size: 36px;
+line-height: 40px;
+font-weight: 600;
+}
+header{
+align-items: center;
+background-color: lightcoral;
+width: 90%;
+}
+.discordbutton{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100px;
+  height: 50px;
+  font-style: normal;
+  cursor: pointer;
+}
+footer{ width: 90%;
+
+}
+.logo{
+width: 10rem;
+height: 10rem;
+}
+a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+color: 663206;
+ text-decoration: none;
+}
