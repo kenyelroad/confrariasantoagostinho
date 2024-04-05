@@ -6,40 +6,39 @@
 body {
   font-family: "PMNCaeciliaSans Text", sans-serif;
   font-style: normal;
-  text-justify: distribute-all-lines;
-  height: 100vh;
-  max-width: 1152px;
+  height: 100%;
+  width: 85%;
   margin-inline: auto;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 192;
+
+  .logo{ width: 8rem;
+  }
+  .moon{
+    margin: 0px 16px;
+    padding: 8px 16px;
+    border-color: e7e5e4;
+    border-radius: 6px;
+    border-width: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: white;
+    border-style: solid;
+  }
+  .moon:hover{
+    filter: brightness(0.9);
+    }
 }
-.logo {
-  width: 192px;
-}
-.moon{
-  margin: 0px 16px;
-  padding: 8px 16px;
-  border-color: e7e5e4;
-  border-radius: 6px;
-  border-width: 1px;
-  cursor: pointer;
-  box-shadow: none;
-  background-color: white;
-  border-style: solid;
-}
-.moon:hover{
-filter: brightness(0.9);
-}
+
 main{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 81
-  ;
+  margin-top: 81;
+  flex:1;
 }
 h1 {
   text-align: center;
@@ -48,16 +47,17 @@ h1 {
   font-weight: 600;
   margin: 10px auto;
 }
-p.text{
+.text{
   margin: 64px 0px 0px;
   text-align: justify;
   justify-content: distribute-all-lines;
 }
-#buttondiv{
-  margin: 10px 0px 0px;
-}
-div > p{
-  margin-top: 64px;
+.buttondiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 10px 0px;
 }
 .discordbutton {
   padding: 8px 16px;
